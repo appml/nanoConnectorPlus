@@ -18,6 +18,7 @@
 
 #### <a name="tasker">Tasker Support</a>
 The syncing of **neutriNote Connector+** can also alternatively be triggered by Tasker.  Simply create a new Tasker task similar to the one below:
+
 ```
 A1: Send Intent [ 
 Action:com.appmindlab.connectorplus.ACTION_REQUEST_SYNC 
@@ -29,6 +30,7 @@ Extra:
 Extra: Package:com.appmindlab.connectorplus
 Class: Target:Broadcast Receiver ] 
 ```
+
 #### <a name="support">Support</a>
 What's next?  Join [Google+ community](https://plus.google.com/u/0/communities/117565395761503074053) to keep up with the app's latest development.
 
