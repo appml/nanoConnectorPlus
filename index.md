@@ -7,7 +7,7 @@
 #### <a name="started">Getting Started</a>
 **neutriNote Connector+** is an advanced version of **neutriNote Connector** with the support of multiple plain text file types.  To enable, just follow these easy steps:
 
-> **IMPORTANT**: _If you have **neutriNote Connector** installed, be sure to have it uninstalled first._
+**IMPORTANT**: _If you have **neutriNote Connector** installed, be sure to have it uninstalled first._
 
 1. Point to **Local Repository** of **neutriNote** under **Settings**.
 1. Link to **Dropbox** using the button on the main screen.
@@ -15,7 +15,7 @@
     * The first sync would take a while to finish depending on the quantity of notes.  It also may reset the last modified time of notes.
     * If the above steps fail to trigger sync, tap **Resync All** from the menu.
     * Once the first sync completes, you can manual sync anytime by doing a pull-to-refresh from the main screen of **neutriNote**.
-    * For Android 6 or above, **Battery Optimization** under device settings will override in-app sync preferences.
+    * For Android 6 or above, be sure to disable **Battery Optimization** for this app under system settings.
 
 #### <a name="tasker">Tasker Support</a>
 The syncing of **neutriNote Connector+** can also alternatively be triggered by Tasker.  Simply create a new Tasker task similar to the one below:
